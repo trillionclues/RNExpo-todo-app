@@ -10,15 +10,13 @@ const Button = ({ onPress, label, style }) => (
 const styles = StyleSheet.create({
   button: {
     borderRadius: 10,
-    width: '100%',
-    height: '100%',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
   },
   buttonText: {
-    color: '#000',
-    fontSize: 16,
+    color: '#fff',
+    fontSize: 20,
   },
 })
 
